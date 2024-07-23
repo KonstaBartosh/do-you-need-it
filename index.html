@@ -14,15 +14,19 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-first-item">главная</li>
-          <li>посмотреть лоты</li>
-          <li>об аукционе</li>
+          <li><a href="#cards">посмотреть лоты</a></li>
+          <li><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <div class="logo"></div>
       <address class="adress-container">
         <ul class="contacts">
-          <li>+9 999 555 5555</li>
-          <li>info@sobaka.ge</li>
+          <li>
+            <a href="tel:+99995555555" class="phone-number">+9 999 555 5555</a>
+          </li>
+          <li>
+            <a href="mailto:info@sobaka.ge" class="email">info@sobaka.ge</a>
+          </li>
           <li>наб. Принсенграхт 263- <br> 265, Амстердам</li>
         </ul>
       </address>
@@ -49,12 +53,50 @@
           <!-- Main title end -->
 
           <div class="cover__description">
-            <p class="cover__description-text">Аукцион вещей, вкоторые никто не верил</p>
+            <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
             <button class="bet-button">Сделать ставку</button>
           </div>
         </div>
       </section>
-      <section class="cards"></section>
+      <section id="cards" class="cards">
+        <h2 class="cards__heading">Лоты</h2>
+        <ul class="cards__list">
+          <li class="card card_type_film">
+            <a href="#0" class="card__link">
+              <div class="overlay"></div>
+              <h2 class="card__title">Фильм режиссёра, который бросил киношколу</h2>
+              <p class="card__text">
+                Не просто бросил, а ушёл с первой лекции. 
+                Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </p>
+            </a>
+          </li>
+          <li class="card card_type_book">
+            <a href="#0" class="card__link">
+              <div class="overlay"></div>
+              <h2 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h2>
+              <p class="card__text">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
+                В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, 
+                начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. 
+                Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+              </p>
+            </a>
+          </li>
+          <li class="card card_type_picture">
+            <a href="#0" class="card__link">
+              <div class="overlay"></div>
+              <h2 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h2>
+              <p class="card__text">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. 
+                Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, 
+                если бы не знали, что это — одна из революционных работ Кандинского?
+              </p>
+            </a>
+          </li>
+        </ul>
+        <a href="#0" class="look-more-link">посмотреть больше</a>
+      </section>
       <section class="about"></section>
     </main>
     <footer class="footer"></footer>
