@@ -282,7 +282,7 @@
   letter-spacing: 0.2px;
 }
 
-.first-paragraph {
+.about__text:first-of-type {
   padding-bottom: 24px;
 }
 
